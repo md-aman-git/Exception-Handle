@@ -3,7 +3,7 @@ import customexception.AgeException;
 import java.util.Scanner;
 
 public class Hello {
-    public static void main(String [] args) throws AgeException {
+    public static void main(String [] args) {
         System.out.println("Hello Exception Example :)");
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter age : ");
